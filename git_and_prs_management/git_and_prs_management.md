@@ -120,3 +120,4 @@ To recursively update a git repository with submodules:
 git submodule foreach 'git pull --rebase'
 ```
 
+PR etiquette article: [PR Etiquette](https://gist.github.com/mikepea/863f63d6e37281e329f8)
