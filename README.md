@@ -10,6 +10,7 @@ $ lookatme test_driven_development/test_driven_development.md
 
 ## List of presentations
 
+* Bazel
 * Test driven development
 * Git and PRs management
 * Continuous Integration

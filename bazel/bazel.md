@@ -19,7 +19,7 @@ The company Google uses the build tool Blaze internally and released an open-sou
 
 ---
 
-## Why use Bazel?
+# Why use Bazel?
 
 * **High-level build language**.
     * Bazel uses an abstract, human-readable language to describe the build properties of your project at a high semantical level.
@@ -38,7 +38,7 @@ The company Google uses the build tool Blaze internally and released an open-sou
 
 ---
 
-## How does Bazel work
+# How does Bazel work
 
 When running a build or a test, Bazel does the following:
 
@@ -49,4 +49,31 @@ When running a build or a test, Bazel does the following:
 Since all previous build work is cached, Bazel can identify and reuse cached artifacts and only rebuild or retest what’s changed.
 
 To further enforce correctness, you can set up Bazel to run builds and tests hermetically through sandboxing, minimizing skew and maximizing reproducibility.
+
+---
+
+# Bazel rules
+
+|Language     |Tiobe Index Rank (2019)|Bazel Support|
+|------------:|:---------------------:|-------------|
+|Java         |1                      | Yes         |
+|C            |2                      | Yes         |
+|Python       |3                      | Yes         |
+|C++          |4                      | Yes         |
+|C#           |5                      | Yes         |
+|Javascript   |7                      | Yes         |
+|Swift        |10                     | Yes         |
+|Ruby         |11                     | Yes         |
+|Objective-C  |12                     | Yes         |
+|Groovy       |14                     | Yes         |
+|R            |16                     | Yes         |
+|D            |18                     | Yes         |
+|Golang       |20                     | Yes         |
+|Perl         |21                     | Yes         |
+|Rust         |25                     | Yes         |
+|Scala        |30                     | Yes         |
+|Kotlin       |35                     | Yes         |
+|Typescript   |43                     | Yes         |
+|Haskell      |44                     | Yes         |
+|Bash         |48                     | Yes         |
 
