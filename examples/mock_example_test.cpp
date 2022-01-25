@@ -21,10 +21,10 @@
  *  - This is done with Matchers. Matchers allow you to specify that a parameter is any value,
  *    equal to a specific value, or typical mathematical relationships such as greater than, less than etc.
  *    Examples:
- *     & EXPECT_CALL(MyMockObj, SetData(_));
- *     & EXPECT_CALL(MyMockObj, SetData(100));
- *     & EXPECT_CALL(MyMockObj, SetData( Ge(100) ));  // parameter passed to SetData must be greater than 100
- *     & EXPECT_CALL(MyMockObj, SetData( NotNull(my_obj) ));
+ *     * EXPECT_CALL(MyMockObj, SetData(_));
+ *     * EXPECT_CALL(MyMockObj, SetData(100));
+ *     * EXPECT_CALL(MyMockObj, SetData( Ge(100) ));  // parameter passed to SetData must be greater than 100
+ *     * EXPECT_CALL(MyMockObj, SetData( NotNull(my_obj) ));
  *
  * Specifying how many times it will be called:
  *  - This can be achieved using the "Times" clause
@@ -36,12 +36,12 @@
  *  - WillOnce - specifies an action that will be done on one call to the function
  *  - WillRepeatedly - specifies an action that is done on many calls to the function
  *    Examples:
- *     & EXPECT_CALL(MyMockObj, GetData()).WillOnce(Return(1));
- *     & EXPECT_CALL(MyMockObj, GetData()).WillRepeatedly(Return(1));
- *     & EXPECT_CALL(MyMockObj, GetData()).WillOnce(Return(1))
+ *     * EXPECT_CALL(MyMockObj, GetData()).WillOnce(Return(1));
+ *     * EXPECT_CALL(MyMockObj, GetData()).WillRepeatedly(Return(1));
+ *     * EXPECT_CALL(MyMockObj, GetData()).WillOnce(Return(1))
  *                                        .WillOnce(Return(2))
  *                                        .WillOnce(Return(3));
- *     & EXPECT_CALL(MyMockObj, GetData()).Times(4)
+ *     * EXPECT_CALL(MyMockObj, GetData()).Times(4)
  *                                        .WillRepeatedly(Return(1))
  */
 #include <iostream>

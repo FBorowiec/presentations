@@ -41,7 +41,7 @@ class MyDummy : public MyInterface {
 
 /**
  * Stub example
- * Stubs are different thatn dummy test doubles in that they do expect to be called
+ * Stubs are different than dummy test doubles in that they do expect to be called
  * and return canned data.
  */
 class MyStub : public MyInterface {
