@@ -3,7 +3,9 @@
 Optional dependency to run the presentations: `lookatme`
 
 ```bash
-lookatme test_driven_development/test_driven_development.md
+$ pip3 install lookatme
+
+$ lookatme test_driven_development/test_driven_development.md
 ```
 
 ## List of presentations
