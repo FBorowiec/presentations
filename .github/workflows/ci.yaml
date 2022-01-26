@@ -24,7 +24,7 @@ jobs:
 
     - name: Profiling check
       run: |
-        "${GITHUB_WORKSPACE}/bin/bazel" test--copt=-O0 -c dbg --run_under='valgrind --leak-check=yes' //...
+        "${GITHUB_WORKSPACE}/bin/bazel" test -c dbg --run_under='valgrind --leak-check=yes' //...
 
     - name: Test
       run: |

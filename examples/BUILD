@@ -1,15 +1,6 @@
 load("@rules_cc//cc:defs.bzl", "cc_test")
 
 cc_test(
-    name = "tests",
-    srcs = glob(["*.cpp"]),
-    deps = [
-        "@gtest",
-        "@gtest//:gtest_main",
-    ],
-)
-
-cc_test(
     name = "fizzbuzz_example_test",
     srcs = ["fizzbuzz_example_test.cpp"],
     deps = [

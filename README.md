@@ -14,5 +14,5 @@ $ lookatme test_driven_development/test_driven_development.md
 * Test driven development
 * Git and PRs management
 * Continuous Integration
-* Code Coverage
-* Static code analysis
+    * Code Coverage
+    * Static code analysis
